@@ -2,23 +2,6 @@
 
 This project demonstrates the use of Transformers for text generation using the T5 model. The project includes the necessary code for training the model on a custom dataset and generating new text.
 
-## Project Structure
-
-Text-Generation-Using-T5/
-│
-├── .gitignore
-├── README.md
-├── data/
-│   └── input.txt  # Text file containing input data
-├── model/
-│   └── t5  # Directory for saving the fine-tuned model
-├── generate.py
-├── requirements.txt
-├── train.py
-└── results/
-    └── generated_texts.txt  # Generated texts will be saved here
-
-
 ## Installation
 
 1. Clone the repository:
