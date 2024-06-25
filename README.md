@@ -6,7 +6,7 @@ This project demonstrates the use of Transformers for text generation using the 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Text-Generation-Using-T5.git
+   git clone https://github.com/SreeEswaran/Text-Generation-Using-T5.git
    cd Text-Generation-Using-T5
 2. Install the dependencies
    ```bash
