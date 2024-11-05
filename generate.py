@@ -5,7 +5,6 @@ def generate_text(prompt, max_length=50):
     model_name = "model/t5"
     tokenizer = T5Tokenizer.from_pretrained(model_name)
     model = T5ForConditionalGeneration.from_pretrained(model_name)
-
     inputs = tokenizer(prompt, return_tensors="pt")
     outputs = model.generate(
         inputs.input_ids, 
